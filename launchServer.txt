@@ -1,0 +1,1 @@
+D:\Qlik\ServiceDispatcher\Node\node.exe D:\Scripts\Javascript\bolike-backend-main\index.js
