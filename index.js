@@ -10,10 +10,10 @@ app.use(cors({
 }));
 
 
-// app.post('/', (req, res) => {
-//   console.log('Got body:', req.body);
-//   res.sendStatus(200);
-// });
+app.post('/bolike-vente', (req, res) => {
+  console.log('Got body:', req.body);
+  res.sendStatus(200);
+});
 
 app.get('/', (req,res) => {
   res.send('Hello world');
